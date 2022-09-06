@@ -1,0 +1,80 @@
+h1 {
+    color: black;
+    text-align: center;
+    font-size: 35px;
+    font-weigh: normal;
+}
+
+p {
+    color: black;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.header {
+    height: 150px;
+    background-color: rgb(196, 190, 190);
+}
+
+.footer {
+    height: 150px;
+    background-color: rgb(196, 190, 190);
+}
+
+.content {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.block {
+    width: 350px;
+    height: 350px;
+    border: 1px solid black;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.image-green {
+    background-size: 100%, 100%;
+    background-image: url(foto/Изумруд.jpg);
+}
+
+.image-white {
+    background-size: 100%, 100%;
+    background-image: url(foto/белый.jpg);
+}
+
+.image-water {
+    background-size: 100%, 100%;
+    background-image: url(foto/вода.jpg);
+}
+
+.image-sand {
+    background-size: 100%, 100%;
+    background-image: url(foto/песочный.jpg);
+}
+
+.image-platinum {
+    background-size: 100%, 100%;
+    background-image: url(foto/платина.jpg);
+}
+
+.image-terracotta {
+    background-size: 100%, 100%;
+    background-image: url(foto/терракот.jpg);
+}
+
+.button {
+    width: 100px;
+    height: 20px;
+    border-color: black;
+    color: black;
+    background-color: white;
+    text-align: center;
+    line-height: 20px;
+    margin: 330px auto 0;
+}
